@@ -1,0 +1,11 @@
+{
+  "name": "fitzone-server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "json-server --watch fitzone.json --port 3000 --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  }
+}
