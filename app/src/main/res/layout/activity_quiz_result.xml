@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_star"
+        app:tint="@color/primary"
+        xmlns:app="http://schemas.android.com/apk/res-auto" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/quiz_result_title"
+        android:textAppearance="@style/TextAppearance.FitZone.Title"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/primary"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:text="4 / 5 bonnes réponses"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <Button
+        android:id="@+id/buttonBackToQuiz"
+        style="@style/Widget.FitZone.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/back_to_quiz_list"
+        android:textColor="@color/white" />
+
+</LinearLayout>
